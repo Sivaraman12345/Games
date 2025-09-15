@@ -70,7 +70,7 @@ def play_game():
             if current_player=="X":
                 current_player="O"
             else: current_player="X"
-        new_game=input(f"Score Card:\n{p1}'s Score={score1}\n{p2}'s score={score2}\nType yes to play again or press anyother key to exit:").strip().lower()
+        new_game=input(f"Score Card:\n{p1}'s Score={score1}\n{p2}'s score={score2}\nType yes to play again or press any other key to exit:").strip().lower()
         if score1==3:
             print(f"{p1} won the deck")
             score1=score2=0
